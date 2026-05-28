@@ -20,3 +20,12 @@ Home → About → Services → Enquiry → Contact
 
 ## Changelog
 - Created HTML structure
+
+- 
+## part 2 
+Changes made:
+- Added  map Imaging
+- Improved Contact Page
+- Created a interactive service page
+- Improved CSS
+- 
