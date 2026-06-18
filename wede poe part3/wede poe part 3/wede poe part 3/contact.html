@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Contact Us | Durban Tech Repairs</title>
+</head>
+
+<body>
+
+<header class="site-header">
+
+    <div class="container header-content">
+
+        <div class="brand">
+
+            <img src="images/logo durban tech.png"
+                 alt="Durban Tech Repairs Logo"
+                 class="logo"
+                 width="100">
+
+            <div>
+                <h1>Durban Tech Repairs</h1>
+                <p class="tagline">Fast • Reliable • Affordable Repairs</p>
+            </div>
+
+        </div>
+
+        <!-- HAMBURGER -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- NAVIGATION (FIXED ID) -->
+        <nav class="nav" id="navMenu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </div>
+
+</header>
+
+<main>
+
+    <h2>Contact Us</h2>
+
+    <p><strong>Phone:</strong> +27 79 802 0076</p>
+    <p><strong>Email:</strong> info@durbantechrepairs.co.za</p>
+
+    <h3>Business Hours</h3>
+    <p>Monday – Friday: 8:00 AM – 5:00 PM</p>
+    <p>Saturday: 9:00 AM – 2:00 PM</p>
+
+    <h2>Send Us a Message</h2>
+
+    <form class="contact-form" id="contactForm">
+
+        <label>Full Name</label>
+        <input type="text" id="name" required>
+
+        <label>Email Address</label>
+        <input type="email" id="email" required>
+
+        <label>Phone Number</label>
+        <input type="tel" id="phone">
+
+        <label>Service Needed</label>
+        <select id="service">
+            <option>Smartphone Repair</option>
+            <option>Laptop Repair</option>
+            <option>Tablet Repair</option>
+            <option>Software Installation</option>
+        </select>
+
+        <label>Message</label>
+        <textarea id="message" rows="5" required></textarea>
+
+        <button type="submit">Send Enquiry</button>
+
+    </form>
+
+    <h2>Find Us</h2>
+
+    <p>Umhlanga – 4 Lagoon Drive</p>
+
+    <iframe
+        width="100%"
+        height="400"
+        style="border:0; border-radius:10px;"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=31.08,-29.73,31.09,-29.72&layer=mapnik">
+    </iframe>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Durban Tech Repairs</p>
+</footer>
+
+<!-- JS FILE ONLY -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
