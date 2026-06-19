@@ -2,7 +2,8 @@
 
 ##  Student Information
 Name: Shalin Thomas Nadar
-Git Repository https://github.com/nadssha411-debug/durban-tech-repairs-website.git
+
+## Git Repository https://github.com/nadssha411-debug/durban-tech-repairs-website.git
 
 
 ##  Project Overview
