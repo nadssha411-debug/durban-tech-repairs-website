@@ -69,7 +69,6 @@ Live link: *(Insert your link here)*
 
 
 ## References
-## References
 
 Mozilla Developer Network (MDN), 2025. HTML: HyperText Markup Language. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML  
 [Accessed 10 June 2026].
